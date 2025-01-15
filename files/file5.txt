@@ -1,0 +1,80 @@
+    1  pwd
+    2  ls
+    3  ls -al
+    4  cd .
+    5  pwd
+    6  cd ..
+    7  pwd
+    8  cd ..
+    9  pwd
+   10  ls
+   11  ls -al
+   12  cd ~
+   13  clear
+   14  pwd
+   15  ls
+   16  ls -al
+   17  clear
+   18  cd /workspaces/
+   19  cd /workspaces/ds2002-jjk2jy
+   20  ls -al
+   21  touch file1.txt
+   22  ls -al
+   23  touch file2.txt
+   24  touch file3.txt
+   25  ls -al
+   26  echo "a man a plan a canal panama"
+   27  echo "a man a plan a canal panama" > file1.txt 
+   28  ls -al
+   29  clear
+   30  cd file1.txt
+   31  cat file1.txt 
+   32  cat file1.txt > file2.txt 
+   33  cat file1.txt > file3.txt 
+   34  ls -al
+   35  echo "this should be a second line" >> file2.txt 
+   36  cat file2.txt 
+   37  clear
+   38  cat /dev/null > file3.txt 
+   39  ls -al
+   40  mkdir files
+   41  ls
+   42  mv file1.txt files/
+   43  ls
+   44  cd files
+   45  ls
+   46  cd .
+   47  cd ..
+   48  touch file4.txt
+   49  touch file5.txt
+   50  cp file2.txt file6.txt
+   51  ls -al
+   52  clear
+   53  mv file*.txt files/
+   54  ls
+   55  ls -al
+   56  cd files
+   57  ls
+   58  rm file6.txt 
+   59  ls
+   60  cd ..
+   61  ls -al
+   62  top
+   63  clear
+   64  ps
+   65  clear
+   66  ps aux
+   67  cd files/
+   68  ps aux
+   69  ps aux > file5.txt 
+   70  ls -al
+   71  clear
+   72  head file5.txt 
+   73  head -n 3 file5.txt 
+   74  tail -n 2 file5.txt 
+   75  clear
+   76  history
+   77  ps aux
+   78  clear
+   79  cat file5.txt 
+   80  history > file5.txt 
